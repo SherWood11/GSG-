@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Elagi</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="icon" href="./Css/imge/Fy.jpg" />
+
+</head>
+
+<body>
+    <form action="">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo"><a href="./index.html" style="color: white;">Elagi Sudan</a></label>
+            <ul>
+                <li><a class="active" href="./index.html" title="Elagi.com">Home</a></li>
+                <li><a href="./About.html" title="About">About</a></li>
+                <li><a href="./Sevices.html" title="Services">Services</a></li>
+                <li><a href="https://wa.me/qr/4FZWKRZZ4R73J1" title="Whatsapp" target="_blank">Contact</a></li>
+                <li><a href="#">Feedback</a></li>
+            </ul>
+        </nav>
+
+        <div>
+            <h2><strong>Elagi</strong></h2>
+            <br>
+            <p class="asa">Welcome To Elagi</p>
+
+            <!-- <div class="date">
+            <label for="date">Date</label>
+            <input id="date" type="datetime-local" required placeholder="ادخل الوقت والتاريخ"
+                style="background-color:#028ac9e7"> -->
+        </div>
+        <br>
+        <hr />
+
+
+        <div class="list">
+            <label for="list"><b>Choose Hospital</b></label>
+            <input id="list" list="namelist" required placeholder="اسم المستشفى" />
+            <datalist id="namelist">
+                <option value="Albaraha"> </option>
+                <option value="Royal Care"> </option>
+                <option value="Alfaisal"> </option>
+                <option value="Fidal"> </option>
+                <option value="Haj Ahsafi"> </option>
+                <option value="Makaa"> </option>
+                <option value="Aldoali"> </option>
+                <option value="Bahri"> </option>
+                <option value="Alkhartom"> </option>
+                <option value="Alzitona"> </option>
+            </datalist>
+        </div>
+
+        <div>
+
+            <p><strong><b>Form</b>:</strong></[p]>
+                <br>
+                <br>
+            <div class="form">
+                <label for="name"><b>Full Name</b></label>
+                <input id="name" type="text" placeholder="الرجاء ادخال الاسم كامل" required>
+                <label for="mail" style="padding-left: 10px;"><b>Email</b></label>
+                <input id="mail" type="email" placeholder="الرجاء ادخال الايميل" required>
+                <label for="tel" style="padding-left: 10px;"><b>Tel</b></label>
+                <input id="tel" type="number" placeholder="ادخل رقم الهاتف" required>
+            </div>
+            <br>
+            <div class="place">
+                <label>Place:</label>
+                <br>
+                <div class="place-s">
+                    <form action="">
+                        <input type="radio" id="kh" name="radio" />
+                        <label for="kh" title="الخرطوم">Khartoom</label>
+                        <input type="radio" id="ba" name="radio" checked />
+                        <label for="ba" title="بحري">Bahri</label>
+                        <input type="radio" id="om" name="radio" />
+                        <label for="om" title="أمدرمان">Omdorman</label>
+                    </form>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <label class="Elag"> Anser :</label>
+                    <textarea name="text" id="text" cols="60" rows="20"
+                        placeholder=" الرجاء كتابة الدواء والتشخيص المرضي" required></textarea>
+
+                </div>
+                <fieldset class="comment">
+                    <legend>Elagi</legend>
+                    <br>Write a comment:<br />
+                    <textarea id="co" placeholder=" comment..."></textarea>
+                    <br>
+                    <fieldset>
+                        <legend>Elagi</legend>
+                        <i>Created by: AhmedSherwood©</i>
+                    </fieldset>
+                    <br>
+
+                </fieldset>
+                <div class="a">
+                    <input type="submit" name="Send">
+                    <input type="reset" name="reset">
+                </div>
+                <br>
+
+                <style>
+                    input[type=submit] {
+                        font-size: 33px;
+                        border: 3px solid #2c3e50;
+                        color: #d8d8d8;
+                        background-color: cornflowerblue;
+                        border-radius: 18px;
+                    }
+
+                    input[type=submit]:hover {
+                        background-color: #607d8b;
+                        color: rgb(216, 198, 197);
+                        font-size: 37px;
+                    }
+                </style>
+
+                <style>
+                    input[type=reset] {
+                        font-size: 33px;
+                        border: 3px solid #2c3e50;
+                        color: #d8d8d8;
+                        background-color: cornflowerblue;
+                        border-radius: 18px;
+                    }
+
+
+                    input[type=reset]:hover {
+                        background-color: #607d8b;
+                        color: rgb(216, 198, 197);
+                        font-size: 37px;
+                    }
+                </style>
+
+
+
+                <style>
+                    input[type=text] {
+                        width: 22%;
+                        border: 4px solid #2c3e50;
+                        border-radius: 4px;
+                        margin: 6px 0;
+                        outline: none;
+                        padding: 19px;
+                        box-sizing: border-box;
+                    }
+
+                    input[type=text] :focus {
+                        background-color: dodgerblue;
+                        box-shadow: 0 0 8px dodgerblue;
+                    }
+                </style>
+                <style>
+                    input[type=email] {
+                        width: 22%;
+                        border: 4px solid #2c3e50;
+                        border-radius: 4px;
+                        margin: 6px 0;
+                        outline: none;
+                        padding: 19px;
+                        box-sizing: border-box;
+                    }
+
+                    input[type=email] :focus {
+                        background-color: dodgerblue;
+                        box-shadow: 0 0 8px dodgerblue;
+                    }
+                </style>
+                <style>
+                    input[type=number] {
+                        width: 22%;
+                        border: 4px solid #2c3e50;
+                        border-radius: 4px;
+                        margin: 6px 0;
+                        outline: none;
+                        padding: 19px;
+                        box-sizing: border-box;
+                    }
+
+                    input[type=number] :focus {
+                        background-color: dodgerblue;
+                        box-shadow: 0 0 8px dodgerblue;
+                    }
+                </style>
+                <style>
+                    input[list=namelist] {
+                        width: 22%;
+                        border: 4px solid #2c3e50;
+                        border-radius: 4px;
+                        margin: 6px 0;
+                        outline: none;
+                        padding: 19px;
+                        box-sizing: border-box;
+                    }
+                </style>
+                <input id="Date" type="date">
+    </form>
+</body>
+
+</html>

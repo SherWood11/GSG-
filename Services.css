@@ -1,0 +1,90 @@
+/* .one {
+    border-bottom: 1px solid red;
+    color: red;
+}
+
+.two {
+    border-bottom: 1px solid green;
+    color: green;
+}
+
+.three {
+    border-bottom: 1px solid blue;
+    color: blue;
+}
+
+.four {
+    border-bottom: 1px solid black;
+    color: black;
+} */
+
+body {
+    background-image:  url(./Css/imge/Hospital1.jpg);
+    background-size: cover; 
+    background-image:filte, blur(10px);
+    background-image:  filter, invert(4px); 
+    background-attachment:local;
+}   
+
+*{
+     text-decoration: none;
+     list-style: none; 
+    box-sizing: border-box; 
+    color: white;
+  }
+.one,
+.two,
+.three,
+.four {
+    padding: 27px;
+    margin: 69px 0;
+    background-color: rgba(0, 139, 139, 0.479);
+    text-align: center;
+    border-bottom: 9px solid rgba(29, 218, 145, 0.63);
+    font-size: 40px;
+    width: 526px;
+    height: 113px;
+    border-radius: 21px;
+}
+
+.two {
+    position: relative;
+    bottom: 174px;
+    left: 949px;      
+}
+
+.three{
+    position: relative;
+    bottom: 50px;
+}
+
+.four{
+    position: relative;
+    bottom: 223px;
+    left: 944px;
+}
+
+.one:hover {
+ background-color:rgba(173, 85, 85, 0.774);
+ border-color: #EEE;
+}
+.two:hover {
+ background-color:rgba(173, 85, 85, 0.774);
+ border-color: #EEE;
+}
+.three:hover {
+ background-color:rgba(173, 85, 85, 0.774);
+ border-color: #EEE;
+}
+.four:hover {
+ background-color:rgba(173, 85, 85, 0.774);
+ border-color: #EEE;
+}
+
+
+.home {
+    text-align: center;
+    font-size: 80px;
+    color: #EEE;
+}
+
